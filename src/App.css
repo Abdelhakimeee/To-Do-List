@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 2% 10% ;
+  padding: 2% 24%;
+  font-size: 30px;
+
+}
+.App h2 {
+  color: red;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+}
+.todo-container li {
+  width: 170px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor:pointer;
+  margin: 5px 50px;
+}
+.done {
+  text-decoration: line-through;
+  color: red;
+}
+.tod {
+  display: flex;
+}
+.tod-input {
+  padding: 10px ;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.tod-button {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: yellow;
+  margin-top: 2px;
+  padding: 6px 0px;
+}
